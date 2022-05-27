@@ -1,0 +1,7 @@
+name = input("What is your name? ")
+age = input("How old are you? ")
+job = input("What is your proffesionality? ")
+
+print("My name is " + name )
+print("I am " + age + "years old")
+print("I am now a " + job )
