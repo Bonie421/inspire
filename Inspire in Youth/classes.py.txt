@@ -1,0 +1,6 @@
+class Person:
+    def __init__(self,name,dob,height,weight):
+        self.name= name
+        self.dob=dob
+        self.height=height
+        self.weight=weight

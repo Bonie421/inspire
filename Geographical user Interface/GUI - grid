@@ -1,0 +1,8 @@
+from tkinter import *
+from tkinter import *
+root = Tk()
+#create a frame.
+my_label = Label(root, text = "Hello world!!!! ").grid(row=5,column=5)
+my_label2 = Label(root, text ="Hello my people!!!! ").grid(row=3, column=4)
+#Show it on screen.
+root.mainloop()

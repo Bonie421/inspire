@@ -1,0 +1,22 @@
+a = f
+b = h
+c = a + b
+print(c)
+
+if a > c:
+    print("a is greater than c")
+elif a == c:
+    print("a is equal to c")
+else:
+    print("a is less than c")
+    
+lucky_numbers =  [2, 3, 8, 12, 14, 57]
+friends = ["Kevin", "elsie", "Tom", "Tom"]
+friends.insert(2, "lucky")
+friends.remove("elsie")
+friends.pop()
+print(friends.index("Tom"))
+print(friends.count("Tom"))
+friends.sort()
+print(friends.count("Tom"))
+
